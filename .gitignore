@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & Sensitive Keys
+.env
+*.env
+settings.json
+data/settings.json
+**/data/settings.json
+
+# Local SQLite Database & User Uploads
+*.db
+*.sqlite3
+data/*.db
+**/data/*.db
+data/uploads/*
+**/data/uploads/*
+!**/data/uploads/.gitkeep
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Archives
+*.zip

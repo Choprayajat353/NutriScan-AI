@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>NutriScan AI — Precision Nutrition. Powered by Vision.</title>
+  <meta name="description" content="Instant, intelligent food recognition and deterministic nutritional analysis right from meal photos. Powered by YOLOv8 and MobileNetV3.">
+  <meta name="theme-color" content="#000000" id="theme-color-meta">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥗</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="animated-bg" aria-hidden="true">
+    <div class="aurora-orb orb-1"></div>
+    <div class="aurora-orb orb-2"></div>
+    <div class="aurora-orb orb-3"></div>
+    <div class="aurora-orb orb-4"></div>
+    <div class="aurora-grid"></div>
+  </div>
+  <div id="app" aria-live="polite"></div>
+  <div id="overlay-root"></div>
+  <div id="spotlight-root"></div>
+  <div id="toasts" role="status" aria-live="polite"></div>
+  <input type="file" id="file-input" accept="image/jpeg,image/png,image/webp" hidden>
+  <script src="/app.js"></script>
+</body>
+</html>
